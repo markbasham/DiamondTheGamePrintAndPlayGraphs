@@ -2,7 +2,13 @@ FROM continuumio/miniconda3
 
 COPY . .
 
-RUN conda install notebook pandas matplotlib
+# Create a geopandas enviroment for the location plots
+RUN conda create -n geopandas geopandas
+
+#create a pandas and jupyter enviroment for most of the plots as the default
+RUN conda install pandas notebook pandas matplotlib
+
+RUN conda init bash
 
 EXPOSE 8890
 
