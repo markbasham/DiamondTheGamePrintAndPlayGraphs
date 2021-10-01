@@ -10,7 +10,7 @@ plots for the Print and Play paper
 ## Talking and Seeing Science
 ![Figure](/figures/TalkingandSeeingScience.png)
 
-## Word Analyis
+## Word Analysis
 ![Figure](/figures/WordAnalyis.png)
 
 ## UK Players
