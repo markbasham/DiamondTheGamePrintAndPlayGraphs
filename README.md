@@ -18,3 +18,9 @@ plots for the Print and Play paper
 
 ## World Players
 ![Figure](/figures/WorldPlayers.png)
+
+## Reading Girls School Words before playing
+![Figure](/figures/RGS_words_before.png)
+
+## Reading Girls School Words after playing
+![Figure](/figures/RGS_words_after.png)
