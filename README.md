@@ -1,6 +1,9 @@
 # DiamondTheGamePrintAndPlayGraphs
 plots for the Print and Play paper
 
+## Comparison
+![Figure](/figures/Comparison.png)
+
 ## original_words_after
 ![Figure](/figures/original_words_after.png)
 
