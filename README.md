@@ -10,9 +10,6 @@ plots for the Print and Play paper
 ## original_words_before.png
 ![Figure](/figures/original_words_before.png)
 
-## OriginalDataBefore.png
-![Figure](/figures/OriginalDataBefore.png)
-
 ## OriginalWordAnalyisAfter.png
 ![Figure](/figures/OriginalWordAnalyisAfter.png)
 
@@ -48,9 +45,6 @@ plots for the Print and Play paper
 
 ## UKPlayers.png
 ![Figure](/figures/UKPlayers.png)
-
-## WordAnalyis.png
-![Figure](/figures/WordAnalyis.png)
 
 ## WorldPlayers.png
 ![Figure](/figures/WorldPlayers.png)
