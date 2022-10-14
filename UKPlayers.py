@@ -10,8 +10,6 @@ import matplotlib.colors as colors
 fp = 'geoassets/Areas.shp'
 all_df = gpd.read_file(fp)
 
-#print(all_df)
-
 # Now the map is sorted out, add the data
 import pandas as pd
 import numpy as np
@@ -34,10 +32,7 @@ df['total'] = df['Q3.1']+df['Q3.2']+df['Q3.3']+df['Q3.4']
 df = df[df['UK'] == 1.0]
 df['name'] = df['Q2'].str.split('[0-9]').str[0].str.upper()
 
-#print(df)
-
 clean_df = df.copy()
-#print(df.loc['2020-1-1':'2022-1-1'])
 
 start_date = '2020-6-1'
 end_date = '2022-10-1'
@@ -122,23 +117,16 @@ cbar2 = fig.colorbar(sm2, ax=ax2, shrink=0.4, format=formatter, ticks=[1,2,5,10,
 # this will save the figure as a high-res png. you can also save as svg
 fig.savefig(f'figures/UKPlayers.png', dpi=300)
 
-
-print(df)
 # get back to the original datasets for plotting dat a over time
 # seperate personal and institutional data
 df_ind = df[df['total']<=10]
 df_big = df[df['total']>10]
 
-print(df_ind)
-
-
-# for the last data, make a plot of total vrs time
+# for the individual data, make a plot of total vrs time
 plt.rcParams["figure.dpi"] = 300
 plt.clf()
 plt.cla()
-title = "total number of individuals playing the game over time"
-#print('wibble')
-#print(df_ind)
+title = "Total number of individuals playing the game over time"
 df_ind_sum = df_ind['total'].sort_index().cumsum()
 print(df_ind_sum)
 ax = df_ind_sum.plot(kind='line', x='date', rot=90, stacked=True, colormap=pl.cm.viridis, figsize=(8, 6), title=title)
@@ -148,11 +136,11 @@ fig.tight_layout()
 fig.savefig('figures/TotalUKPlayersOverTime.png', dpi=300)
 
 
-# for the last data, make a plot of total vrs time
+# for the group data, make a plot of total vrs time
 plt.rcParams["figure.dpi"] = 300
 plt.clf()
 plt.cla()
-title = "total number of groups playing the game over time"
+title = "Total number of groups playing the game over time"
 ax = df_big['total'].sort_index().cumsum().plot(kind='line', x='date', rot=90, stacked=True, colormap=pl.cm.viridis, figsize=(8, 6), title=title)
 ax.set_ylabel("Number of People")
 fig = ax.get_figure()
