@@ -125,7 +125,7 @@ df_big = df[df['total']>10]
 plt.rcParams["figure.dpi"] = 300
 plt.clf()
 plt.cla()
-title = "Total number of individuals playing the game over time"
+title = "Personal players over time globally"
 df_ind_sum = df_ind['total'].sort_index().cumsum()
 ax = df_ind_sum.plot(kind='line', x='date', rot=90, stacked=True, colormap=pl.cm.viridis, figsize=(8, 6), title=title)
 ax.set_ylabel("Number of People")
@@ -137,7 +137,7 @@ fig.savefig('figures/TotalWorldPlayersOverTime.png', dpi=300)
 plt.rcParams["figure.dpi"] = 300
 plt.clf()
 plt.cla()
-title = "Total number of groups playing the game over time"
+title = "Institutional players over time globally"
 ax = df_big['total'].sort_index().cumsum().plot(kind='line', x='date', rot=90, stacked=True, colormap=pl.cm.viridis, figsize=(8, 6), title=title)
 ax.set_ylabel("Number of People")
 fig = ax.get_figure()
