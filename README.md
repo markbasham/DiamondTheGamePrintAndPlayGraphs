@@ -46,17 +46,11 @@ plots for the Print and Play paper
 ## UKPlayers.png
 ![Figure](/figures/UKPlayers.png)
 
-## TotalUKPlayersOverTime.png
-![Figure](/figures/TotalUKPlayersOverTime.png)
-
-## TotalUKGroupsOverTime.png
-![Figure](/figures/TotalUKGroupsOverTime.png)
+## TotalPlayersOverTime.png
+![Figure](/figures/TotalPlayersOverTime.png)
 
 ## WorldPlayers.png
 ![Figure](/figures/WorldPlayers.png)
 
-## TotalWorldPlayersOverTime.png
-![Figure](/figures/TotalWorldPlayersOverTime.png)
-
-## TotalWorldGroupsOverTime.png
-![Figure](/figures/TotalWorldGroupsOverTime.png)
+## TotalGroupsOverTime.png
+![Figure](/figures/TotalGroupsOverTime.png)
