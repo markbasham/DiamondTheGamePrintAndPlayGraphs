@@ -1,11 +1,12 @@
-Date,PPos,IPos,Event
-06-May-20, 0, 0, Initial Launch
-21-Jun-20, 500, 1800, CMAG Article
-25-Jun-20, 600, 2100, IoP Wales Talk
-26-Jun-20, 700, 2400, Youtube Videos
-18-Sep-20, 1000, 3200, Manchester Game Network Event
-20-Feb-21, 1200, 3500, Festival of Tomorrow 2021(FoT)
-08-Sep-21, 1300, 3800, ETOP Conference
-11-Oct-21, 1400, 4100, Physical Game Arrives
-16-Dec-21, 1500, 4400, Game At Diamond
-25-Feb-22, 1600, 4700, FoT 2022
+Date,TDate,PPos,IPos,TPos,Event
+06-May-20,18-Apr-20,0,-500,1000, Initial Launch
+21-Jun-20,05-Jun-20,500,-500,1250, CMAG Article
+25-Jun-20,25-Jun-20,600,-500,1600," IoP Wales Talk
+YouTube Videos"
+18-Sep-20,18-Sep-20,1000,-500,2000,"Manchester Game
+   Network Event"
+20-Feb-21,20-Feb-21,1200,-500,1900, Festival of Tomorrow 2021
+08-Sep-21,08-Sep-21,1300,-500,2300, ETOP Conference
+11-Oct-21,11-Oct-21,1400,-500,2400, Physical Game Arrives
+16-Dec-21,16-Dec-21,1500,-500,2400, Game Launch at Diamond
+25-Feb-22,25-Feb-22,1600,-500,3000, Festival of Tomorrow 2022
