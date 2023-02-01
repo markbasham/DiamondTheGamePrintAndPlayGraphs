@@ -1,56 +1,61 @@
 # DiamondTheGamePrintAndPlayGraphs
 plots for the Print and Play paper
 
-## Comparison
-![Figure](/figures/Comparison.png)
+# Word Clouds
 
-## original_words_after
-![Figure](/figures/original_words_after.png)
-
-## original_words_before.png
+## original study workds before
 ![Figure](/figures/original_words_before.png)
 
-## OriginalWordAnalyisAfter.png
-![Figure](/figures/OriginalWordAnalyisAfter.png)
+## original study words after
+![Figure](/figures/original_words_after.png)
+
+## Print and play download questionaire words
+![Figure](/figures/PnP_words_before.png)
+
+## Reading Girls School words after
+![Figure](/figures/RGS_words_before.png)
+
+## Reading Girls School words after
+![Figure](/figures/RGS_words_after.png)
+
+# Word Analysis
 
 ## OriginalWordAnalysisBefore.png
 ![Figure](/figures/OriginalWordAnalysisBefore.png)
 
-## PnP_words_before.png
-![Figure](/figures/PnP_words_before.png)
+## OriginalWordAnalyisAfter.png
+![Figure](/figures/OriginalWordAnalyisAfter.png)
 
 ## PnPWordAnalyisBefore.png
 ![Figure](/figures/PnPWordAnalyisBefore.png)
 
-## RGS_words_after.png
-![Figure](/figures/RGS_words_after.png)
-
-## RGS_words_before.png
-![Figure](/figures/RGS_words_before.png)
+## RGSWordAnalyisBefore.png
+![Figure](/figures/RGSWordAnalyisBefore.png)
 
 ## RGSWordAnalyisAfter.png
 ![Figure](/figures/RGSWordAnalyisAfter.png)
 
-## RGSWordAnalyisBefore.png
-![Figure](/figures/RGSWordAnalyisBefore.png)
+## Word Analyisis summary
+![Figure](/figures/Comparison.png)
 
-## TalkingAboutScience.png
+# Print and play questionare results
+
+## Print and Play TalkingAboutScience.png
 ![Figure](/figures/TalkingAboutScience.png)
 
-## TalkingAboutScienceByCountry.png
+## Print and Play TalkingAboutScienceByCountry.png
 ![Figure](/figures/TalkingAboutScienceByCountry.png)
 
-## TalkingandSeeingScience.png
+## Print and Play TalkingandSeeingScience.png
 ![Figure](/figures/TalkingandSeeingScience.png)
 
+# Print and play regional uptake
 ## UKPlayers.png
 ![Figure](/figures/UKPlayers.png)
-
-## TotalPlayersOverTime.png
-![Figure](/figures/TotalPlayersOverTime.png)
 
 ## WorldPlayers.png
 ![Figure](/figures/WorldPlayers.png)
 
-## TotalGroupsOverTime.png
-![Figure](/figures/TotalGroupsOverTime.png)
+# Print and takeup over time.
+## TotalPlayersOverTime.png
+![Figure](/figures/TotalPlayersOverTime.png)
