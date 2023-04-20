@@ -36,7 +36,7 @@ df['NAME'] = df['Q2']
 clean_df = df.copy()
 
 start_date = '2020-6-1'
-end_date = '2022-10-1'
+end_date = '2022-06-14'
 # set the range, start date set before to pick up any early ones where plotting is problematic
 df = clean_df.loc[start_date:end_date]
 
