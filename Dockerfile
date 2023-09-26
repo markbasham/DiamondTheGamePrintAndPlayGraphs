@@ -11,6 +11,6 @@ RUN conda install -c conda-forge wordcloud
 
 RUN conda init bash
 
-EXPOSE 8890
+EXPOSE 8080
 
-CMD ["jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--port=8890", "--NotebookApp.token=''", "--NotebookApp.password=''", "/local"]
+CMD ["jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--port=8080", "--NotebookApp.token=''", "--NotebookApp.password=''", "/local"]
