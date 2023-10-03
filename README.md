@@ -38,6 +38,8 @@ plots for the Print and Play paper
 ## Word Analyisis summary
 ![Figure](/figures/Comparison.png)
 
+![figure](/figures/WordAnalysis.png)
+
 # Print and play questionare results
 
 ## Print and Play TalkingAboutScience.png
@@ -59,3 +61,5 @@ plots for the Print and Play paper
 # Print and takeup over time.
 ## TotalPlayersOverTime.png
 ![Figure](/figures/TotalPlayersOverTime.png)
+
+
