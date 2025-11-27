@@ -22,20 +22,22 @@ del df['Q1']
 del df['Q4']
 del df['Q5']
 del df['Q6']
-df['Started'] = pd.to_datetime(df['Started'])
+df['Started'] = pd.to_datetime(df['Started'], dayfirst=True)
 df = df.set_index(['Started'])
-df['Q3.1'] = df['Q3.1. 0 - 7 years old'].replace('-','0').replace(np.NaN,0).astype(int)
-df['Q3.2'] = df['Q3.2. 8 - 14 years old'].replace('-','0').replace(np.NaN,0).astype(int)
-df['Q3.3'] = df['Q3.3. 15 - 19 years old'].replace('-','0').replace(np.NaN,0).astype(int)
-df['Q3.4'] = df['Q3.4. 20 +'].replace('-','0').replace(np.NaN,0).astype(int)
+df['Q3.1'] = df['Q3.1. 0 - 7 years old'].replace('-','0').replace(np.nan,0).astype(int)
+df['Q3.2'] = df['Q3.2. 8 - 14 years old'].replace('-','0').replace(np.nan,0).astype(int)
+df['Q3.3'] = df['Q3.3. 15 - 19 years old'].replace('-','0').replace(np.nan,0).astype(int)
+df['Q3.4'] = df['Q3.4. 20 +'].replace('-','0').replace(np.nan,0).astype(int)
 df['total'] = df['Q3.1']+df['Q3.2']+df['Q3.3']+df['Q3.4']
 df = df[df['UK'] == 1.0]
 df['name'] = df['Q2'].str.split('[0-9]').str[0].str.upper()
 
 clean_df = df.copy()
 
-start_date = '2020-6-1'
-end_date = '2022-6-9'
+clean_df = clean_df.sort_index()
+
+start_date = pd.to_datetime('2020-6-1')
+end_date = pd.to_datetime('2022-6-9')
 # set the range, start date set before to pick up any early ones where plotting is problematic
 df = clean_df.loc[start_date:end_date]
 
