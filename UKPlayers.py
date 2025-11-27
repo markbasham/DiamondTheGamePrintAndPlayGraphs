@@ -40,8 +40,8 @@ end_date = '2022-6-9'
 df = clean_df.loc[start_date:end_date]
 
 # seperate personal and institutional data
-df_ind = df[df['total']<=10]
-df_big = df[df['total']>10]
+df_ind = df[df['total']<=5]
+df_big = df[df['total']>5]
 
 # aggregate the data by postcode region
 df_ind = df_ind.groupby('name').agg({'Q3.1':['sum'],'Q3.2':['sum'],'Q3.3':['sum'],'Q3.4':['sum'],'total':['sum']})
@@ -119,8 +119,8 @@ fig.savefig(f'figures/UKPlayers.png', dpi=300)
 
 # get back to the original datasets for plotting dat a over time
 # seperate personal and institutional data
-df_ind = df[df['total']<=10]
-df_big = df[df['total']>10]
+df_ind = df[df['total']<=5]
+df_big = df[df['total']>5]
 
 # for the individual data, make a plot of total vrs time
 plt.rcParams["figure.dpi"] = 300
